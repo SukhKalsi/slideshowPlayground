@@ -1,3 +1,36 @@
-body {
-  color: red;
+.slideshow {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.slideshow__slide {
+  display: none; // hide until initialised
+  position: relative;
+  top: 0px;
+  float: left;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 500ms ease;
+
+  img {
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  &.slideshow-active {
+    opacity: 1;
+  }
+
+}
+
+.slideshow-initialised {
+  
+  .slideshow__slide {
+    display: block;
+  }
 }

@@ -1,3 +1,5 @@
+require ('./main.scss');
+
 import Slideshow from './components/slideshow';
 
 document.addEventListener('DOMContentLoaded', () => {
