@@ -1,5 +1,5 @@
 {
-  "name": "lory-mvp",
+  "name": "slideshow-playground",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,18 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SukhKalsi/loryMVP.git"
+    "url": "git+https://github.com/SukhKalsi/slideshowPlayground.git"
   },
   "author": "Sukh Kalsi",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/SukhKalsi/loryMVP/issues"
+    "url": "https://github.com/SukhKalsi/slideshowPlayground/issues"
   },
-  "homepage": "https://github.com/SukhKalsi/loryMVP#readme",
-  "dependencies": {
-    "iscroll": "^5.2.0",
-    "lory.js": "^2.2.1"
-  },
+  "homepage": "https://github.com/SukhKalsi/slideshowPlayground#readme",
   "devDependencies": {
     "babel-loader": "^5.0.0",
     "css-loader": "^0.25.0",
